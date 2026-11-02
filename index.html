@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Expense Tracker</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --text-color: #334155;
+            --heading-color: #0f172a;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+            --primary-color: #2563eb;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--heading-color);
+            font-size: 1.875rem;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.25rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 6px;
+        }
+
+        p, ul {
+            margin-bottom: 16px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .meta {
+            color: #64748b;
+            font-size: 0.875rem;
+            margin-bottom: 24px;
+        }
+
+        .badge {
+            background-color: #eff6ff;
+            color: var(--primary-color);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="meta">Last updated: November 2, 2026</div>
+
+        <p>This Privacy Policy outlines how <strong>[App Name]</strong> ("we", "our", or "the App") handles your information. Our primary architecture is built on a <strong>privacy-first, offline-first approach</strong>: we do not maintain external servers to collect or store your personal financial data.</p>
+
+        <h2>1. Offline-First Local Data Storage</h2>
+        <p>All expense entries, account details, transaction categories, and custom tags you input are stored strictly locally on your device's internal storage.</p>
+        <ul>
+            <li>No transaction data is transmitted to, processed by, or stored on our servers.</li>
+            <li>If you clear the App's storage cache or uninstall the App without a backup, your local data will be permanently removed.</li>
+        </ul>
+
+        <h2>2. Optional Google Drive Cloud Backup (Consent-Based)</h2>
+        <p>The App allows you to create backups and synchronize data using your personal Google Drive account.</p>
+        <ul>
+            <li><strong>Explicit User Consent:</strong> Google Drive integration is disabled by default and activates only when you explicitly connect your Google account.</li>
+            <li><strong>Restricted Scope:</strong> The App uses the minimum necessary Google Drive permissions (such as <code>drive.appdata</code> or <code>drive.file</code>) to store and retrieve only the backup files created specifically by [App Name].</li>
+            <li><strong>Access Restrictions:</strong> We have no visibility into your Google credentials, nor do we access, view, or alter any other files stored inside your Google Drive.</li>
+            <li><strong>Revocation:</strong> You can disconnect your Google account and stop cloud backups at any time directly through the App settings or your Google Account security dashboard.</li>
+        </ul>
+
+        <h2>3. Payment App Notification Detection</h2>
+        <p>To help you track expenses automatically, the App offers an optional notification listener feature to parse transaction alerts.</p>
+        <ul>
+            <li><strong>User-Selected Apps Only:</strong> The App only monitors notifications from payment and banking applications you explicitly choose and enable in the App settings.</li>
+            <li><strong>Local Extraction
